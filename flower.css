@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.intro{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+    /* intro -------------------------- */
+
+.intro-title{
+
+margin-top: 200px;
+margin-left: 100px;
+
+color: #272727;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-family: Lato;
+font-size: 65px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.intro-desc{
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 32px;
+    margin-left: 100px;
+}
+.btn-click{
+    display: inline-flex;
+    padding: 20px 20px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: #E55473;
+    border-style: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    justify-content: center;
+    color: white;
+}
+
+/* ----------- featured part */
+
+.featured-title{
+    
+text-align: center;
+font-family: Lato;
+font-size: 30px;
+font-weight: 800;
+margin-top: 150px;
+margin-bottom: 30px;
+}
+
+.featured-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.featured-list{
+    margin: 20px 40px;    
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.pink-flower{
+
+width: 250px;
+height: 300px;
+padding: 120px 70px 70px 70px;
+border: 10px;
+background-color: pink;
+border-radius: 300px 300px 0px 0px;
+margin: 10px 5px;
+
+
+}
+
+.red-flower{
+width: 250px;
+height: 300px;
+padding: 120px 70px 70px 70px;
+border: 10%;
+background-color: red;
+border-radius: 300px 300px 0px 0px;
+margin: 10px 5px;
+}
+.yellow-flower{
+    width: 250px;
+    height: 300px;
+    padding: 120px 70px 70px 70px;
+    border: 10%;
+    background-color: yellow;
+    border-radius: 300px 300px 0px 0px;
+    margin: 10px 30px;
+}
+
+#pink{
+    width: 33.33%;
+    float: left;
+    margin-left: 200px;
+    font-size: 20px;
+}
+#red{
+    width: 33.33%;
+    margin-left: 500px;
+    font-size: 20px;
+
+
+}
+#yellow{
+    font-size: 20px;
+    width: 33.33%;
+    margin: 0px 1150px;
+}
+
+
+/* Delivery part */
+
+.delivery{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 60px 100px 60px;    
+    padding: 50px 20px;
+    background-color: whitesmoke;
+}
+
+.same-day{
+    margin-left: 50px;
+    text-align: center;
+}
+.delivery-text{
+    padding: 20px;
+}
+.ad{
+    margin-right: 90px;
+    text-align: center;
+}
+.ad-desc{
+    color: rgba(39, 39, 39, 0.60);
+
+    padding-top: 20px;
+}
+.support{
+    margin-right: 150px;
+}
+.support-desc{
+    padding-top: 10px;
+}
+    /*sale part */
+
+.sale{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+.sale-title{
+margin: 100px 100px 30px 200px;
+color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.sale-desc{
+color: rgba(39, 39, 39, 0.60);
+margin: 10px 100px 20px 200px;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.btn-sale{
+    padding: 20px 20px;
+    align-items: center;
+    border-radius: 5px;
+    background: #E55473;
+    border-style: none;
+    justify-content: center;
+    color: white;
+    margin: 10px 100px 30px 400px;
+    letter-spacing: 2px;
+
+}
+    /* Insta part */
+
+.insta-title{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0px 30px 0px;
+}
+.insta-desc{
+    color: rgba(39, 39, 39, 0.60);
+
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0px 30px 0px;
+}
+.insta{
+    margin: 30px 50px 50px 200px;  
+
+}
+    /* deals part----------------- */
+
+
+.deals-title{
+    text-align: center;
+    margin: 100px 50px 70px 350px;
+    font-family: Lato;
+    font-weight: 800;
+    position: absolute;
+    font-size: 35px;
+}
+.deals-desc{
+    text-align: left;
+    font-family: Lato;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 150px 50px 100px 420px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.input{
+    position: absolute;
+    justify-content: center;
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    margin: 200px  399px 100px 190px;
+    
+}
+.btn-sub{
+    position: absolute;
+    margin: 199px  400px 100px 720px;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #E55473;
+    color: white;
+    font-size: 12px;
+    width: fit-content;
+
+}
+
+.deals{
+    
+    position: absolute;
+    margin: 20px 200px 150px 200px;
+}
+    /* Footer------------- */
+
+.aboutus{
+    position: absolute;
+    background-color: black;
+    margin: 500px 0px 0px 0px;
+    width: 100%;
+    padding-top: 12px;
+    height: 300px;
+}
+.about-title{
+    position: absolute;
+    color: white;
+    margin: 80px 50px 100px 600px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.about-desc{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    margin-top: 130px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+font-family: Lato;
+font-size: 13px;
+font-weight: 400;
+
+}
+
+/*     Could not finish it on time because of the busy days in office,
+                     i hope i'll recover asap, keep me in your prayer guys, thank you :)  */
